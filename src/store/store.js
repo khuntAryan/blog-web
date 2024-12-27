@@ -3,7 +3,7 @@ import authService from "../appwrite/auth";
 
 const store = configureStore({
     reducer:{
-        auth : authSlice
+    
     }
 })
 

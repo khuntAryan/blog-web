@@ -4,7 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { useDispatch } from 'react-redux'
 import authServices from './appwrite/auth.js'
-import { login } from './store/AuthSlice.js'
+import { login,logout } from './store/AuthSlice.js'
+import {Header} from './components/index.js'
+import {Footer} from './components/index.js'
+import { Outlet } from 'react-router-dom'
 
 
 function App() {
